@@ -13,4 +13,11 @@ String validationName(String value){
       }
       return null;
     }
+
+    String validationMobile(String value){
+      if(value.isEmpty){
+        return 'Enter Mobile Number';
+      }
+      return null;
+    }
 }

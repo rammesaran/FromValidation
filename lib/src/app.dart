@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Application form'),
+          title: Text('CV Application form'),
         ),
         body: ApplicationFromScreen(),
       ),
